@@ -1,0 +1,32 @@
+{
+    "name": "amidesfahani/nova-persian-date-filter",
+    "description": "Laravel Nova Persian Date filter field.",
+    "keywords": [
+        "laravel",
+        "nova",
+        "persian",
+        "date",
+        "shamsi"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Amid\\NovaPersianDateFilter\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Amid\\NovaPersianDateFilter\\FilterServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
